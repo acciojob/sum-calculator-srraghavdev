@@ -13,7 +13,7 @@ const App = () => {
     <div>
         <h1>Sum Calculator</h1>
         <input type='number' onChange={adddata}></input>
-         <p>Sum : {
+         <p>Sum: {
           sum.reduce((accu,element)=>accu+element,0)
           }
           </p>
